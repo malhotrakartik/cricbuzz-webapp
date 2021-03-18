@@ -17,6 +17,50 @@ let innings1Batsman = [];
 let innings1Bowler = [];
 let careerData = [];
 let innings = "2";
+let playersAdded = 0;
+
+async function getCareerData(url,i,totalPlayers){
+    playersAdded += 1;
+    let browser = new wd.Builder().forBrowser('chrome').setChromeOptions(new chrome.Options().headless()).build();
+    await browser.get(url);
+    await browser.wait(wd.until.elementLocated(wd.By.css(".table.cb-col-100.cb-plyr-thead")));
+    let tables = await browser.findElements(wd.By.css(".table.cb-col-100.cb-plyr-thead"));
+   
+   
+    for(let j in tables){
+        let tableRows = await tables[j].findElements(wd.By.css("tbody tr"));
+        let data = {};
+        for(row of tableRows){
+            let tempData = {};
+            let columns = await row.findElements(wd.By.css("td"));
+            let matchType = await columns[0].getAttribute("innerText");
+            let keyArr = batsmenColumns;
+            if(j == 1){
+                keyArr = bowlerColumns;
+
+            }
+            for(let k=1;k<columns.length;k++){
+                tempData[keyArr[k-1]] = await columns[k].getAttribute("innerText");
+            }
+           
+            data[matchType] = tempData;
+
+        }
+        if(j == 0){
+            careerData[i]["battingCareer"] = data;
+        }else{
+            careerData[i]["bowlingCareer"] = data;
+        }
+
+    }
+
+    browser.close();
+    if(playersAdded == totalPlayers){
+        fs.writeFileSync("career2.json",JSON.stringify(careerData));
+    }
+
+
+}
 
 async function main(){
     await(browser.get(`https://www.cricbuzz.com/live-cricket-scores/${matchId}`));
@@ -59,44 +103,12 @@ for(let i=0;i<(innings1BowlerRow.length);i++){
 
 let finalUrls = innings1Batsman.concat(innings1Bowler);
 for(i in finalUrls){
-    await browser.get(finalUrls[i]);
-    await browser.wait(wd.until.elementLocated(wd.By.css(".table.cb-col-100.cb-plyr-thead")));
-    let tables = await browser.findElements(wd.By.css(".table.cb-col-100.cb-plyr-thead"));
-   
-   
-    for(j in tables){
-        let tableRows = await tables[j].findElements(wd.By.css("tbody tr"));
-        let data = {};
-        for(row of tableRows){
-            let tempData = {};
-            let columns = await row.findElements(wd.By.css("td"));
-            let matchType = await columns[0].getAttribute("innerText");
-            let keyArr = batsmenColumns;
-            if(j == 1){
-                keyArr = bowlerColumns;
-
-            }
-            for(let k=1;k<columns.length;k++){
-                tempData[keyArr[k-1]] = await columns[k].getAttribute("innerText");
-            }
-            console.log(tempData);
-            
-
-            data[matchType] = tempData;
-
-        }
-        if(j == 0){
-            careerData[i]["battingCareer"] = data;
-        }else{
-            careerData[i]["bowlingCareer"] = data;
-        }
-
-    }
+   getCareerData(finalUrls[i],i,finalUrls.length);
     
 
 }
-console.log(careerData);
-fs.writeFileSync("career.json",JSON.stringify(careerData));
+
+
 
 
     
