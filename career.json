@@ -1,0 +1,618 @@
+[
+    {
+        "palyerName": "Devon Conway",
+        "battingCareer": {
+            "T20I": {
+                "playerName": "11",
+                "out": "9",
+                "runs": "2",
+                "ballsPlayed": "366",
+                "fours": "99",
+                "sixes": "52.29",
+                "sr": "252",
+                "undefined": "11"
+            }
+        },
+        "bowlingCareer": {
+            "T20I": {
+                "palyerName": "11",
+                "over": "-",
+                "maiden": "-",
+                "run": "-",
+                "wicket": "-",
+                "noball": "-",
+                "wides": "-",
+                "economy": "-",
+                "undefined": "-"
+            }
+        }
+    },
+    {
+        "palyerName": "Martin Guptill",
+        "battingCareer": {
+            "Test": {
+                "playerName": "47",
+                "out": "89",
+                "runs": "1",
+                "ballsPlayed": "2586",
+                "fours": "189",
+                "sixes": "29.39",
+                "sr": "5548",
+                "undefined": "23"
+            },
+            "ODI": {
+                "playerName": "183",
+                "out": "180",
+                "runs": "18",
+                "ballsPlayed": "6843",
+                "fours": "237",
+                "sixes": "42.24",
+                "sr": "7824",
+                "undefined": "176"
+            },
+            "T20I": {
+                "playerName": "99",
+                "out": "95",
+                "runs": "7",
+                "ballsPlayed": "2839",
+                "fours": "105",
+                "sixes": "32.26",
+                "sr": "2084",
+                "undefined": "139"
+            },
+            "IPL": {
+                "playerName": "13",
+                "out": "13",
+                "runs": "1",
+                "ballsPlayed": "270",
+                "fours": "50",
+                "sixes": "22.5",
+                "sr": "196",
+                "undefined": "15"
+            }
+        },
+        "bowlingCareer": {
+            "Test": {
+                "palyerName": "47",
+                "over": "18",
+                "maiden": "428",
+                "run": "298",
+                "wicket": "8",
+                "noball": "3/11",
+                "wides": "3/11",
+                "economy": "4.18",
+                "undefined": "0"
+            },
+            "ODI": {
+                "palyerName": "183",
+                "over": "12",
+                "maiden": "109",
+                "run": "98",
+                "wicket": "4",
+                "noball": "2/6",
+                "wides": "2/6",
+                "economy": "5.39",
+                "undefined": "0"
+            },
+            "T20I": {
+                "palyerName": "99",
+                "over": "1",
+                "maiden": "6",
+                "run": "11",
+                "wicket": "0",
+                "noball": "0/11",
+                "wides": "0/11",
+                "economy": "11.0",
+                "undefined": "0"
+            },
+            "IPL": {
+                "palyerName": "13",
+                "over": "-",
+                "maiden": "-",
+                "run": "-",
+                "wicket": "-",
+                "noball": "-",
+                "wides": "-",
+                "economy": "-",
+                "undefined": "-"
+            }
+        }
+    },
+    {
+        "palyerName": "Kane Williamson (c)",
+        "battingCareer": {
+            "Test": {
+                "playerName": "83",
+                "out": "144",
+                "runs": "13",
+                "ballsPlayed": "7115",
+                "fours": "251",
+                "sixes": "54.31",
+                "sr": "13649",
+                "undefined": "17"
+            },
+            "ODI": {
+                "playerName": "151",
+                "out": "144",
+                "runs": "14",
+                "ballsPlayed": "6174",
+                "fours": "148",
+                "sixes": "47.49",
+                "sr": "7551",
+                "undefined": "49"
+            },
+            "T20I": {
+                "playerName": "67",
+                "out": "65",
+                "runs": "8",
+                "ballsPlayed": "1805",
+                "fours": "95",
+                "sixes": "31.67",
+                "sr": "1445",
+                "undefined": "41"
+            },
+            "IPL": {
+                "playerName": "53",
+                "out": "52",
+                "runs": "11",
+                "ballsPlayed": "1619",
+                "fours": "89",
+                "sixes": "39.49",
+                "sr": "1201",
+                "undefined": "54"
+            }
+        },
+        "bowlingCareer": {
+            "Test": {
+                "palyerName": "83",
+                "over": "65",
+                "maiden": "2133",
+                "run": "1195",
+                "wicket": "30",
+                "noball": "4/44",
+                "wides": "4/44",
+                "economy": "3.36",
+                "undefined": "0"
+            },
+            "ODI": {
+                "palyerName": "151",
+                "over": "65",
+                "maiden": "1467",
+                "run": "1310",
+                "wicket": "37",
+                "noball": "4/22",
+                "wides": "4/22",
+                "economy": "5.36",
+                "undefined": "0"
+            },
+            "T20I": {
+                "palyerName": "67",
+                "over": "12",
+                "maiden": "118",
+                "run": "164",
+                "wicket": "6",
+                "noball": "2/16",
+                "wides": "2/16",
+                "economy": "8.34",
+                "undefined": "0"
+            },
+            "IPL": {
+                "palyerName": "53",
+                "over": "2",
+                "maiden": "18",
+                "run": "31",
+                "wicket": "0",
+                "noball": "0/7",
+                "wides": "0/7",
+                "economy": "10.33",
+                "undefined": "0"
+            }
+        }
+    },
+    {
+        "palyerName": "Glenn Phillips",
+        "battingCareer": {
+            "Test": {
+                "playerName": "1",
+                "out": "2",
+                "runs": "0",
+                "ballsPlayed": "52",
+                "fours": "52",
+                "sixes": "26.0",
+                "sr": "119",
+                "undefined": "1"
+            },
+            "T20I": {
+                "playerName": "22",
+                "out": "19",
+                "runs": "2",
+                "ballsPlayed": "409",
+                "fours": "108",
+                "sixes": "24.06",
+                "sr": "291",
+                "undefined": "24"
+            }
+        },
+        "bowlingCareer": {
+            "Test": {
+                "palyerName": "1",
+                "over": "-",
+                "maiden": "-",
+                "run": "-",
+                "wicket": "-",
+                "noball": "-",
+                "wides": "-",
+                "economy": "-",
+                "undefined": "-"
+            },
+            "T20I": {
+                "palyerName": "22",
+                "over": "1",
+                "maiden": "12",
+                "run": "21",
+                "wicket": "0",
+                "noball": "0/21",
+                "wides": "0/21",
+                "economy": "10.5",
+                "undefined": "0"
+            }
+        }
+    },
+    {
+        "palyerName": "Mark Chapman",
+        "battingCareer": {
+            "ODI": {
+                "playerName": "6",
+                "out": "6",
+                "runs": "1",
+                "ballsPlayed": "161",
+                "fours": "124",
+                "sixes": "32.2",
+                "sr": "176",
+                "undefined": "3"
+            },
+            "T20I": {
+                "playerName": "27",
+                "out": "26",
+                "runs": "3",
+                "ballsPlayed": "528",
+                "fours": "63",
+                "sixes": "22.96",
+                "sr": "448",
+                "undefined": "15"
+            }
+        },
+        "bowlingCareer": {
+            "ODI": {
+                "palyerName": "6",
+                "over": "-",
+                "maiden": "-",
+                "run": "-",
+                "wicket": "-",
+                "noball": "-",
+                "wides": "-",
+                "economy": "-",
+                "undefined": "-"
+            },
+            "T20I": {
+                "palyerName": "27",
+                "over": "5",
+                "maiden": "72",
+                "run": "86",
+                "wicket": "4",
+                "noball": "1/9",
+                "wides": "1/9",
+                "economy": "7.17",
+                "undefined": "0"
+            }
+        }
+    },
+    {
+        "palyerName": "Ashton Agar",
+        "battingCareer": {
+            "Test": {
+                "playerName": "4",
+                "out": "7",
+                "runs": "1",
+                "ballsPlayed": "195",
+                "fours": "98",
+                "sixes": "32.5",
+                "sr": "351",
+                "undefined": "3"
+            },
+            "ODI": {
+                "playerName": "14",
+                "out": "12",
+                "runs": "2",
+                "ballsPlayed": "217",
+                "fours": "46",
+                "sixes": "21.7",
+                "sr": "240",
+                "undefined": "1"
+            },
+            "T20I": {
+                "playerName": "32",
+                "out": "17",
+                "runs": "4",
+                "ballsPlayed": "176",
+                "fours": "29",
+                "sixes": "13.54",
+                "sr": "156",
+                "undefined": "5"
+            }
+        },
+        "bowlingCareer": {
+            "Test": {
+                "palyerName": "4",
+                "over": "8",
+                "maiden": "874",
+                "run": "410",
+                "wicket": "9",
+                "noball": "3/46",
+                "wides": "5/101",
+                "economy": "2.81",
+                "undefined": "0"
+            },
+            "ODI": {
+                "palyerName": "14",
+                "over": "14",
+                "maiden": "714",
+                "run": "663",
+                "wicket": "12",
+                "noball": "2/44",
+                "wides": "2/44",
+                "economy": "5.57",
+                "undefined": "0"
+            },
+            "T20I": {
+                "palyerName": "32",
+                "over": "32",
+                "maiden": "648",
+                "run": "743",
+                "wicket": "38",
+                "noball": "6/30",
+                "wides": "6/30",
+                "economy": "6.88",
+                "undefined": "0"
+            }
+        }
+    },
+    {
+        "palyerName": "Riley Meredith",
+        "battingCareer": {
+            "T20I": {
+                "playerName": "3",
+                "out": "-",
+                "runs": "-",
+                "ballsPlayed": "-",
+                "fours": "-",
+                "sixes": "-",
+                "sr": "-",
+                "undefined": "-"
+            }
+        },
+        "bowlingCareer": {
+            "T20I": {
+                "palyerName": "3",
+                "over": "3",
+                "maiden": "66",
+                "run": "83",
+                "wicket": "4",
+                "noball": "2/24",
+                "wides": "2/24",
+                "economy": "7.55",
+                "undefined": "0"
+            }
+        }
+    },
+    {
+        "palyerName": "Jhye Richardson",
+        "battingCareer": {
+            "Test": {
+                "playerName": "2",
+                "out": "1",
+                "runs": "0",
+                "ballsPlayed": "1",
+                "fours": "1",
+                "sixes": "1.0",
+                "sr": "7",
+                "undefined": "0"
+            },
+            "ODI": {
+                "playerName": "13",
+                "out": "8",
+                "runs": "3",
+                "ballsPlayed": "92",
+                "fours": "29",
+                "sixes": "18.4",
+                "sr": "104",
+                "undefined": "0"
+            },
+            "T20I": {
+                "playerName": "14",
+                "out": "7",
+                "runs": "4",
+                "ballsPlayed": "36",
+                "fours": "11",
+                "sixes": "12.0",
+                "sr": "31",
+                "undefined": "1"
+            }
+        },
+        "bowlingCareer": {
+            "Test": {
+                "palyerName": "2",
+                "over": "4",
+                "maiden": "306",
+                "run": "123",
+                "wicket": "6",
+                "noball": "3/26",
+                "wides": "5/45",
+                "economy": "2.41",
+                "undefined": "0"
+            },
+            "ODI": {
+                "palyerName": "13",
+                "over": "13",
+                "maiden": "708",
+                "run": "690",
+                "wicket": "24",
+                "noball": "4/26",
+                "wides": "4/26",
+                "economy": "5.85",
+                "undefined": "0"
+            },
+            "T20I": {
+                "palyerName": "14",
+                "over": "14",
+                "maiden": "300",
+                "run": "426",
+                "wicket": "13",
+                "noball": "2/31",
+                "wides": "2/31",
+                "economy": "8.52",
+                "undefined": "0"
+            }
+        }
+    },
+    {
+        "palyerName": "Kane Richardson",
+        "battingCareer": {
+            "ODI": {
+                "playerName": "25",
+                "out": "12",
+                "runs": "7",
+                "ballsPlayed": "75",
+                "fours": "24",
+                "sixes": "15.0",
+                "sr": "68",
+                "undefined": "4"
+            },
+            "T20I": {
+                "playerName": "26",
+                "out": "5",
+                "runs": "2",
+                "ballsPlayed": "16",
+                "fours": "9",
+                "sixes": "5.33",
+                "sr": "15",
+                "undefined": "0"
+            },
+            "IPL": {
+                "playerName": "14",
+                "out": "4",
+                "runs": "1",
+                "ballsPlayed": "36",
+                "fours": "26",
+                "sixes": "12.0",
+                "sr": "39",
+                "undefined": "1"
+            }
+        },
+        "bowlingCareer": {
+            "ODI": {
+                "palyerName": "25",
+                "over": "25",
+                "maiden": "1312",
+                "run": "1240",
+                "wicket": "39",
+                "noball": "5/68",
+                "wides": "5/68",
+                "economy": "5.67",
+                "undefined": "0"
+            },
+            "T20I": {
+                "palyerName": "26",
+                "over": "26",
+                "maiden": "534",
+                "run": "705",
+                "wicket": "29",
+                "noball": "3/18",
+                "wides": "3/18",
+                "economy": "7.92",
+                "undefined": "0"
+            },
+            "IPL": {
+                "palyerName": "14",
+                "over": "14",
+                "maiden": "317",
+                "run": "443",
+                "wicket": "18",
+                "noball": "3/13",
+                "wides": "3/13",
+                "economy": "8.38",
+                "undefined": "0"
+            }
+        }
+    },
+    {
+        "palyerName": "Adam Zampa",
+        "battingCareer": {
+            "ODI": {
+                "playerName": "61",
+                "out": "27",
+                "runs": "7",
+                "ballsPlayed": "128",
+                "fours": "22",
+                "sixes": "6.4",
+                "sr": "214",
+                "undefined": "1"
+            },
+            "T20I": {
+                "playerName": "41",
+                "out": "7",
+                "runs": "5",
+                "ballsPlayed": "36",
+                "fours": "13",
+                "sixes": "18.0",
+                "sr": "34",
+                "undefined": "0"
+            },
+            "IPL": {
+                "playerName": "14",
+                "out": "2",
+                "runs": "0",
+                "ballsPlayed": "5",
+                "fours": "5",
+                "sixes": "2.5",
+                "sr": "8",
+                "undefined": "0"
+            }
+        },
+        "bowlingCareer": {
+            "ODI": {
+                "palyerName": "61",
+                "over": "61",
+                "maiden": "3248",
+                "run": "3004",
+                "wicket": "92",
+                "noball": "4/43",
+                "wides": "4/43",
+                "economy": "5.55",
+                "undefined": "0"
+            },
+            "T20I": {
+                "palyerName": "41",
+                "over": "40",
+                "maiden": "845",
+                "run": "975",
+                "wicket": "43",
+                "noball": "3/14",
+                "wides": "3/14",
+                "economy": "6.92",
+                "undefined": "0"
+            },
+            "IPL": {
+                "palyerName": "14",
+                "over": "14",
+                "maiden": "287",
+                "run": "370",
+                "wicket": "21",
+                "noball": "6/19",
+                "wides": "6/19",
+                "economy": "7.74",
+                "undefined": "0"
+            }
+        }
+    }
+]
